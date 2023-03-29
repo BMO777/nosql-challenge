@@ -1,6 +1,6 @@
 # nosql-challenge
 
-CSV's are imported using "mongoimport" command from Mongodb to import a collection to  a mogodb database in this case called uk_food, the collection within the database is establishments.
+CSV's are imported using "mongoimport" command from Mongodb to import a collection to a mogodb database in this case called uk_food, the collection within the database is called establishments.
 
 Using pymongo python library in the jupyter notebook file with setup_starter in its name, the establishments collection, is given a variable then:
 
