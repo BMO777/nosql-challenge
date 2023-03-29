@@ -4,7 +4,7 @@ CSV's are imported using "mongoimport" command from Mongodb to import a collecti
 
 Using pymongo python library in the jupyter notebook file with setup_starter in its name, the establishments collection, is given a variable then:
 
-  -the collection is updated, appending the restaurant business "Penang Flavours" to the collection and changing the business type id to match the common key for Restaurant/Cafe/Canteen businesses.
+  -the collection is updated, appending the restaurant business "Penang Flavours" to the collection and changing the business type id to match the common -   -key for Restaurant/Cafe/Canteen businesses.
 
   -Documents with the Dover Loval authority are removed from the collection using delete_many.
 
