@@ -1,6 +1,6 @@
 # nosql-challenge
 
-CSV's are imported using "mongoimport" command from Mongodb to import a collection to a mogodb database in this case called uk_food, the collection within the database is called establishments.
+Json file in the resources folder is imported using "mongoimport" command from Mongodb to import a collection to a mogodb database in this case called uk_food, the collection within the database is called establishments like the json file.
 
 Using pymongo python library in the jupyter notebook file with setup_starter in its name, the establishments collection, is given a variable then:
 
@@ -10,7 +10,7 @@ Using pymongo python library in the jupyter notebook file with setup_starter in 
 
   -Latitude and longitude values are changed from strings to decimal using update_many.
 
-In the jupyter notebook with analysis_starter in its name, the pymongo library is also used, after the establishments collection within the uk_foods database is given a variable again; then the following queries are searched within the collection: 
+In the jupyter notebook with analysis_starter in its name, the pymongo library is also used, after the establishments collection within the uk_foods database is given a variable again, the following queries are searched within the collection: 
 
   1. Which establishments have a hygiene score equal to 20?
   2. Which establishments in London have a RatingValue greater than or equal to 4?
@@ -19,4 +19,4 @@ In the jupyter notebook with analysis_starter in its name, the pymongo library i
  
  The results of these queries are pretty printed using pprint then converted to a pandas dataframe.
 
-To run: Mongodb, Python with the libraries: pymongo and pandas. pprint should be included with the python installation. Jupyter notebook is recomnended to run the notebook files.
+To run: Mongodb, Python with the libraries: pymongo and pandas. pprint should be included with the python installation. Jupyter notebook is recommended to run the notebook files.
